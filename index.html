@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#0b0b0c" /><meta name="description" content="الغرابلي ستور - موبايلات وإكسسوارات وحجز سريع." />
+  <title>الغرابلي ستور | موبايلات وإكسسوارات</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500;600;700;800&family=DM+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="topbar"><span>توصيل داخل الإسكندرية</span><b>•</b><span>حجز المنتج قبل ما يخلص</span><a href="#checkout">إتمام الطلب ←</a></div>
+  <header>
+    <a class="logo" href="#top"><img src="assets/logo.jpg" alt="شعار الغرابلي ستور"><span>EL GHARABLY<br><small>STORE</small></span></a>
+    <nav><a href="#shop">المتجر</a><a href="#why">ليه الغرابلي؟</a><a href="#booking">احجز دلوقتي</a><a href="#contact">تواصل</a></nav>
+    <button class="cart-button" id="openCart" aria-label="فتح السلة"><span>السلة</span><i id="cartCount">0</i><b>←</b></button>
+  </header>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy"><p class="kicker">MOBILES · ACCESSORIES · ALEXANDRIA</p><h1>كل اللي جهازك<br>محتاجه، <em>في مكانه.</em></h1><p class="hero-text">موبايلات وإكسسوارات مختارة بعناية. اختار، احجز، واستلم تجربتك من غير تعقيد.</p><div class="hero-actions"><a class="primary" href="#shop">تسوّق الآن <b>←</b></a><a class="plain" href="#booking">احجز منتجك <span>↙</span></a></div><div class="facts"><div><b>+100</b><span>منتج متاح</span></div><div><b>سريع</b><span>تأكيد الحجز</span></div><div><b>آمن</b><span>دفع واستلام</span></div></div></div>
+      <div class="hero-visual"><div class="hero-glow"></div><img src="assets/hero-banner.png" alt="هواتف وسماعات وإكسسوارات الغرابلي"><div class="new-tag">وصل حديثاً<br><b>2026 / 09</b></div><div class="curve-word">TECH<br>ESSENTIALS</div></div>
+    </section>
+    <div class="ticker"><div>سماعات ✦ شواحن ✦ كابلات ✦ باور بانك ✦ جرابات ✦ ساعات ذكية ✦ سماعات ✦ شواحن ✦ كابلات ✦</div></div>
+    <section class="section" id="shop"><div class="title-row"><div><p class="kicker">01 / المتجر</p><h2>اختار اللي <em>يناسبك.</em></h2></div><p>نماذج من منتجاتنا. اضغط لإضافتها للسلة ثم أكمل بيانات الحجز والدفع.</p></div>
+      <div class="filters"><button class="active" data-filter="all">الكل</button><button data-filter="audio">سماعات</button><button data-filter="charge">شحن</button><button data-filter="protect">حماية</button><button data-filter="wear">ساعات</button></div>
+      <div class="products">
+        <article class="product" data-type="audio"><div class="product-image blue"><img src="assets/catalogue.png" alt="سماعات لاسلكية"></div><div class="product-meta"><span>سماعات</span><strong>سماعات بلوتوث لاسلكية</strong><div><b>849 ج.م</b><button data-add="سماعات بلوتوث لاسلكية" data-price="849">أضف +</button></div></div></article>
+        <article class="product" data-type="charge"><div class="product-image gold"><span class="icon">ϟ</span><small>FAST<br>CHARGE</small></div><div class="product-meta"><span>شحن وكابلات</span><strong>شاحن سريع 25W</strong><div><b>399 ج.م</b><button data-add="شاحن سريع 25W" data-price="399">أضف +</button></div></div></article>
+        <article class="product" data-type="protect"><div class="product-image rose"><span class="phone-shape"></span><small>PROTECT<br>YOUR PHONE</small></div><div class="product-meta"><span>جرابات وحماية</span><strong>جراب حماية شفاف</strong><div><b>249 ج.م</b><button data-add="جراب حماية شفاف" data-price="249">أضف +</button></div></div></article>
+        <article class="product" data-type="wear"><div class="product-image dark"><span class="watch-shape">10:09</span><small>SMART<br>WEAR</small></div><div class="product-meta"><span>ساعات ذكية</span><strong>ساعة ذكية رياضية</strong><div><b>1,299 ج.م</b><button data-add="ساعة ذكية رياضية" data-price="1299">أضف +</button></div></div></article>
+      </div>
+    </section>
+    <section class="booking-band" id="booking"><div><p class="kicker">RESERVE / 24 HOURS</p><h2>لقيت حاجة عجبتك؟<br><em>احجزها فوراً.</em></h2></div><div><p>احجز المنتج لمدة 24 ساعة حتى تتأكد من الموديل واللون. الحجز لا يحتاج دفعاً مسبقاً.</p><button class="primary" id="reserveBtn">ابدأ الحجز <b>←</b></button></div></section>
+    <section class="section why" id="why"><div class="title-row"><div><p class="kicker">02 / التجربة</p><h2>من الاختيار<br>للاستلام، <em>بسهولة.</em></h2></div></div><div class="steps"><article><i>01</i><h3>اختار</h3><p>تصفح الفئات، أو ابعت لنا موديل جهازك لنرشح المناسب.</p></article><article><i>02</i><h3>احجز</h3><p>ثبّت طلبك خلال دقائق ببيانات بسيطة.</p></article><article><i>03</i><h3>ادفع واستلم</h3><p>ادفع أونلاين أو عند الاستلام، مع تأكيد سريع للطلب.</p></article></div></section>
+    <section class="checkout" id="checkout"><div class="checkout-intro"><p class="kicker">03 / CHECKOUT</p><h2>إتمام <em>طلبك.</em></h2><p>أكمل بياناتك، واختار الطريقة التي تريحك. سنؤكد التوفر قبل تحصيل أي دفعة.</p><div class="secure"><span>✓</span> تجربة طلب آمنة وواضحة</div></div><form id="orderForm"><div class="form-grid"><label>الاسم الكامل<input required name="name" placeholder="اكتب اسمك"></label><label>رقم الموبايل<input required name="phone" type="tel" placeholder="01xxxxxxxxx"></label><label class="wide">العنوان / المنطقة<input required name="address" placeholder="مثال: سيدي بشر، الإسكندرية"></label></div><fieldset><legend>طريقة الاستلام</legend><label class="option"><input type="radio" name="delivery" value="استلام من المتجر" checked><span><b>استلام من المتجر</b><small>هنبعت لك وقت الاستلام للتأكيد</small></span></label><label class="option"><input type="radio" name="delivery" value="توصيل للعنوان"><span><b>توصيل للعنوان</b><small>رسوم التوصيل تتأكد حسب المنطقة</small></span></label></fieldset><fieldset><legend>طريقة الدفع</legend><label class="option"><input type="radio" name="payment" value="دفع عند الاستلام" checked><span><b>دفع عند الاستلام</b><small>ادفع بعد تأكيد طلبك</small></span></label><label class="option"><input type="radio" name="payment" value="دفع إلكتروني"><span><b>دفع إلكتروني</b><small>سيتم تحويلك لبوابة دفع آمنة بعد التأكيد</small></span></label></fieldset><div class="order-summary"><span>إجمالي المنتجات</span><b id="total">0 ج.م</b></div><button class="place-order" type="submit">تأكيد الطلب <b>←</b></button><p class="fineprint">بالضغط على تأكيد الطلب، أنت توافق على التواصل لتأكيد السعر والتوفر.</p></form></section>
+    <section class="contact" id="contact"><div><p class="kicker">LET'S TALK</p><h2>مش لاقي اللي<br>محتاجه؟ <em>كلّمنا.</em></h2></div><a class="whatsapp" id="whatsappLink" href="#">راسلنا على واتساب <b>↗</b></a></section>
+  </main>
+  <footer><a class="logo" href="#top"><img src="assets/logo.jpg" alt="الغرابلي ستور"><span>EL GHARABLY<br><small>STORE</small></span></a><p>© 2026 El Gharably Store · Alexandria</p><a href="#top">رجوع للأعلى ↑</a></footer>
+  <aside class="cart" id="cart" aria-label="سلة التسوق"><div class="cart-head"><h3>سلتك</h3><button id="closeCart">×</button></div><div id="cartItems" class="cart-items"><p>لسه ما أضفتش أي منتجات.</p></div><div class="cart-foot"><div><span>الإجمالي</span><b id="sideTotal">0 ج.م</b></div><a href="#checkout" id="goCheckout">إتمام الطلب ←</a></div></aside><div class="overlay" id="overlay"></div>
+  <div class="toast" id="toast">تمت الإضافة إلى السلة ✓</div>
+  <script src="app.js"></script>
+</body></html>
